@@ -21,3 +21,22 @@ class Solution:
                 break                               # If YES, then break the loop
                 
         return head                                 # Finally, return 'head' with all the duplicates removed from the list
+
+    
+    
+    
+# Definition for singly-linked list.
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        tracker = head
+        
+        while tracker:
+            if tracker.next != None and tracker.val == tracker.next.val:
+                tracker.next = tracker.next.next
+            else:
+                tracker = tracker.next
+        return head 
