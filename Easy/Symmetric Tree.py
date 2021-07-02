@@ -18,5 +18,4 @@ class Solution:
     
     def isSymmetric(self, root: TreeNode) -> bool:
         return self.compare(root.left,root.right)
-dfdfg
     
