@@ -5,7 +5,7 @@ class Solution:
             return root
         
         
-#This is he same ode but it is easy to understand  
+#This is he same code but it is easy to understand  
 class Solution:
     def invertTree(self, root: TreeNode) -> TreeNode:
         
