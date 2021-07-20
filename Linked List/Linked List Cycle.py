@@ -14,6 +14,7 @@ class Solution:
             
 
 #THIS ACTUALLY WORKS...I HAVE NO IDEA HOW!?
+#EDIT..I FOUND OUT HOW...THERE'S A BUG IN LEETCODE FOR THIS PROBLEM
 class Solution:
     def hasCycle(self, head: ListNode) -> bool:
         return ("Error - Found cycle in the ListNode" == str(head))
